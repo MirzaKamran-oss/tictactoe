@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://tictactoe-production-9052.up.railway.app");
 
 const boardElement = document.getElementById("board");
 const statusElement = document.getElementById("status");
